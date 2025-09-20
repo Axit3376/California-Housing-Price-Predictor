@@ -25,10 +25,7 @@ Target: **`median_house_value`**
 california-housing/
 ├─ `app.py` — Streamlit app for deployment  
 ├─ `Data` — Folder to store data  
-    ├─ `housing.csv` — Dataset used  
-├─ `best_random_forest.pkl` — Final trained RandomForest pipeline
-├─ `housing_price_pipeline.pkl` — Final trained XGBRegressor pipeline 
-├─ `xgb_housing_model.pkl` — Trained XGBRegressor pipeline   
+    ├─ `housing.csv` — Dataset used    
 ├─ `requirements.txt` — Dependencies for deployment  
 └─ `Housing-Prices.ipynb` — Jupyter notebook with EDA & model training
 ```
@@ -74,15 +71,6 @@ Top predictors (approximate percentages):
 * 📍 longitude / latitude ~ 11% each
 * 🏡 housing_median_age, population, total_rooms ...
 
-## 🚀 Deployment
-
-We created a Streamlit app:
-
-Features:
-
-* User-friendly UI to input housing attributes.
-* Outputs an estimated house price instantly.
-
 ## 🧩 Tech Stack
 * Python 🐍
 * Pandas 🐼, NumPy
@@ -107,6 +95,6 @@ streamlit run app.py
 ## 💡 Key Learnings
 * How to build a full ML pipeline combining preprocessing and model.
 * The importance of hyperparameter tuning to squeeze out extra performance.
-* Deploying a model as a simple interactive web app.
+* Hosting a model as a simple interactive web app locally.
 
 ### ✨ Enjoy predicting house prices! 🏠💵
